@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+header {
+    display: flex; /* 使用 Flexbox 布局 */
+    align-items: center; /* 在交叉轴上居中对齐 */
+    height: 100px;
+    background-color: rgb(74, 74, 74);
+}
+
+header h1 {
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+header::before {
+    content: ""; /* 生成一个空元素用于显示背景图像 */
+    background-image: url(images/11111.png);
+    background-repeat: no-repeat;
+    background-size: contain; /* 适应容器大小 */
+    width: 50px; /* 图片宽度 */
+    height: 50px; /* 图片高度 */
+    margin-left: 3vw;
+}
+header a {
+    color: rgb(245, 245, 245);
+    font-size:20px;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header li {
+    display: inline;
+    margin-right: 3vw;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 100px;
+}
+section {
+    background-color: rgb(138, 245, 151);
+}
+footer {
+    background-color: rgb(169, 145, 251);
+}
+footer {
+    border: 10px rgb(247, 0, 0) dotted; 
+}
