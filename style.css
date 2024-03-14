@@ -19,7 +19,7 @@ header h1 {
 
 header::before {
     content: ""; /* 生成一个空元素用于显示背景图像 */
-    background-image: url(HTML/images/11112.png);
+    background-image: url('HTML/images/11112.png');
     background-repeat: no-repeat;
     background-size: contain; /* 适应容器大小 */
     width: 50px; /* 图片宽度 */
@@ -53,7 +53,7 @@ header ul {
     color: azure;
     height: 60vh;
     padding-top: 80px;
-    background-image: url(11113.png);
+    background-image: url('11113.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
