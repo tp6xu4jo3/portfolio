@@ -19,7 +19,7 @@ header h1 {
 
 header::before {
     content: ""; /* 生成一个空元素用于显示背景图像 */
-    background-image: url('images\11112.png');
+    background-image: url('images/11112.png');
     background-repeat: no-repeat;
     background-size: contain; /* 适应容器大小 */
     width: 50px; /* 图片宽度 */
